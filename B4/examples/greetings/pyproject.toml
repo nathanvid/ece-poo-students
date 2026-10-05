@@ -1,0 +1,14 @@
+[project]
+name = "greetings"
+version = "0.1.0"
+description = "Say hello to the audience"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+greet = "greetings.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

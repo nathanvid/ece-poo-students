@@ -1,0 +1,40 @@
+[project]
+name = "python-oop-course"
+version = "0.1.0"
+description = "Object-oriented programming in Python - course exercises"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.115",
+    "rich>=13",
+    "uvicorn>=0.30",
+]
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.13",
+    "ipykernel>=7.3.0",
+    "nbclient>=0.11.0",
+    "nbformat>=5.11.1",
+    "pytest>=8",
+    "ruff>=0.6",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+# Example notebooks contain syntax errors on purpose.
+extend-exclude = ["B*/examples/*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "N", "UP", "B"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+
+[tool.ruff.lint.per-file-ignores]
+# Exercise files import what the missing code will need.
+"B*/exercises/**" = ["F401"]

@@ -1,0 +1,5 @@
+[project]
+name = "ticketing"
+version = "0.1.0"
+# To complete: description, readme, requires-python, dependencies,
+# the `ticketing` command, and the build system (see README.md of the exercise).

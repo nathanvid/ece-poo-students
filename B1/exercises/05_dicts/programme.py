@@ -1,0 +1,104 @@
+# programme.py - instructions in README.md
+
+PROGRAMME = [
+    {
+        "title": "Opening Gala",
+        "artist": "Paul Kerbrat",
+        "venue": "Grand Casino",
+        "day": "2027-06-10",
+        "start": "20:30",
+        "duration": 120,
+        "price": 35.0,
+    },
+    {
+        "title": "Nothing Serious",
+        "artist": "Nora Lebrun",
+        "venue": "Théâtre des Planches",
+        "day": "2027-06-10",
+        "start": "21:00",
+        "duration": 75,
+        "price": 22.0,
+    },
+    {
+        "title": "Open Mic Night",
+        "artist": "Max Pellerin",
+        "venue": "Le Kiosque",
+        "day": "2027-06-10",
+        "start": "22:30",
+        "duration": 90,
+        "price": 0.0,
+    },
+    {
+        "title": "Improv Lab",
+        "artist": "Inès Moreau",
+        "venue": "Le Kiosque",
+        "day": "2027-06-11",
+        "start": "15:00",
+        "duration": 120,
+        "price": 10.0,
+    },
+    {
+        "title": "Family Business",
+        "artist": "Sacha Diallo",
+        "venue": "Théâtre des Planches",
+        "day": "2027-06-11",
+        "start": "18:00",
+        "duration": 70,
+        "price": 18.0,
+    },
+    {
+        "title": "Tall Tales",
+        "artist": "Léa Fontaine",
+        "venue": "Grand Casino",
+        "day": "2027-06-11",
+        "start": "20:30",
+        "duration": 80,
+        "price": 28.0,
+    },
+    {
+        "title": "Late Laughs",
+        "artist": "Nora Lebrun",
+        "venue": "Le Kiosque",
+        "day": "2027-06-11",
+        "start": "23:30",
+        "duration": 60,
+        "price": 12.0,
+    },
+    {
+        "title": "Brunch Show",
+        "artist": "Karim Benali",
+        "venue": "Théâtre des Planches",
+        "day": "2027-06-12",
+        "start": "11:00",
+        "duration": 60,
+        "price": 15.0,
+    },
+    {
+        "title": "Family Business",
+        "artist": "Sacha Diallo",
+        "venue": "Grand Casino",
+        "day": "2027-06-12",
+        "start": "17:00",
+        "duration": 70,
+        "price": 18.0,
+    },
+    {
+        "title": "Closing Gala",
+        "artist": "Paul Kerbrat",
+        "venue": "Grand Casino",
+        "day": "2027-06-12",
+        "start": "20:30",
+        "duration": 130,
+        "price": 35.0,
+    },
+]
+
+# --- 1. Programme of one day ---
+
+# --- 2. Shows per venue ---
+
+# --- 3. Longest show ---
+
+# --- 4. Artists with several shows ---
+
+# --- 5. Average ticket price ---

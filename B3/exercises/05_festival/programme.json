@@ -1,0 +1,137 @@
+{
+  "name": "Deauville Festival du Rire 2027",
+  "venues": [
+    {
+      "name": "Grand Casino",
+      "capacity": 650
+    },
+    {
+      "name": "Théâtre des Planches",
+      "capacity": 320
+    },
+    {
+      "name": "Le Kiosque",
+      "capacity": 120
+    }
+  ],
+  "artists": [
+    {
+      "name": "Inès Moreau",
+      "bio": "Improv teacher and quick-change artist."
+    },
+    {
+      "name": "Karim Benali",
+      "bio": "Morning person, rare among comedians."
+    },
+    {
+      "name": "Léa Fontaine",
+      "bio": "Tall tales from a small town."
+    },
+    {
+      "name": "Max Pellerin",
+      "bio": "Late-night jokes, adults only."
+    },
+    {
+      "name": "Nora Lebrun",
+      "bio": "Deadpan stories about her family."
+    },
+    {
+      "name": "Paul Kerbrat",
+      "bio": "Host of the galas, never without a bow tie."
+    },
+    {
+      "name": "Sacha Diallo",
+      "bio": "A show about growing up above a bakery."
+    }
+  ],
+  "shows": [
+    {
+      "title": "Opening Gala",
+      "artist": "Paul Kerbrat",
+      "venue": "Grand Casino",
+      "start": "2027-06-10T20:30",
+      "duration": 120,
+      "price": 35.0
+    },
+    {
+      "title": "Nothing Serious",
+      "artist": "Nora Lebrun",
+      "venue": "Théâtre des Planches",
+      "start": "2027-06-10T21:00",
+      "duration": 75,
+      "price": 22.0
+    },
+    {
+      "title": "Open Mic Night",
+      "artist": "Max Pellerin",
+      "venue": "Le Kiosque",
+      "start": "2027-06-10T22:30",
+      "duration": 90,
+      "price": 0.0
+    },
+    {
+      "title": "Improv Lab",
+      "artist": "Inès Moreau",
+      "venue": "Le Kiosque",
+      "start": "2027-06-11T15:00",
+      "duration": 120,
+      "price": 10.0
+    },
+    {
+      "title": "Family Business",
+      "artist": "Sacha Diallo",
+      "venue": "Théâtre des Planches",
+      "start": "2027-06-11T18:00",
+      "duration": 70,
+      "price": 18.0
+    },
+    {
+      "title": "Tall Tales",
+      "artist": "Léa Fontaine",
+      "venue": "Grand Casino",
+      "start": "2027-06-11T20:30",
+      "duration": 80,
+      "price": 28.0
+    },
+    {
+      "title": "Late Laughs",
+      "artist": "Nora Lebrun",
+      "venue": "Le Kiosque",
+      "start": "2027-06-11T23:30",
+      "duration": 60,
+      "price": 12.0
+    },
+    {
+      "title": "After Hours",
+      "artist": "Max Pellerin",
+      "venue": "Le Kiosque",
+      "start": "2027-06-12T01:00",
+      "duration": 60,
+      "price": 10.0
+    },
+    {
+      "title": "Brunch Show",
+      "artist": "Karim Benali",
+      "venue": "Théâtre des Planches",
+      "start": "2027-06-12T11:00",
+      "duration": 60,
+      "price": 15.0
+    },
+    {
+      "title": "Family Business",
+      "artist": "Sacha Diallo",
+      "venue": "Grand Casino",
+      "start": "2027-06-12T17:00",
+      "duration": 70,
+      "price": 18.0
+    },
+    {
+      "title": "Closing Gala",
+      "artist": "Paul Kerbrat",
+      "venue": "Grand Casino",
+      "start": "2027-06-12T20:30",
+      "duration": 130,
+      "price": 35.0
+    }
+  ]
+}
